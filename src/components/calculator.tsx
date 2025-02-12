@@ -26,13 +26,6 @@ export default function Calculator() {
 
   return (
     <>
-      {/* Configuração da aba do navegador */}
-      <Head>
-        <title>Calculadora</title> {/* Define o título da aba */}
-        <link rel="icon" href="/calculator.png" />{" "}
-        {/* Adiciona o ícone na aba */}
-      </Head>
-
       {/* Container principal da página */}
       <div className="flex flex-col items-center justify-center h-screen bg-gray-900 text-white">
         {/* Corpo da calculadora */}

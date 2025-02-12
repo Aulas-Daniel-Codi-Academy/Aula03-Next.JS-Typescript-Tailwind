@@ -24,10 +24,6 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/calculator.png" />
-        {/* Adiciona o ícone na aba do navegador */}
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
